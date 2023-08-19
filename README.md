@@ -40,3 +40,12 @@ Effective Java 3/E (Book)
 - type : getType / newType의 간결한 버
     - List<Complaint> litany = Collections.list(legacyLitany);
 
+## Equals 메서드의 동치관계 (equivalence relation)
+
+(가정) null이 아닌 모든 참조 (x, y, z)값에 대하여
+
+- reflexivity(반사성) : x.equals(x) → true
+- symmetry(대칭성) : x.equals(y) → true이면, y.equals(x) → true
+- transitivity(추이성) : x.equals(y) → true이고, y.equals(z)이면, x.equals(z) → true
+- consistency(일관성) : x.equals(y)를 반복해서 호출하여도 결과값은 같아야 한다.
+- null-아님 : x.equals(null) → false
