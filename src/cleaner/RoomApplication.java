@@ -5,7 +5,7 @@ public class RoomApplication {
         // Anti pattern
         new Room(99);
         System.out.println("How can i clean my room?");
-        // gc가 없으면, 청
+        // gc가 없으면, cleaner가 언제사용될 지 보장할 수 없음.
         System.gc();
 
         // right pattern

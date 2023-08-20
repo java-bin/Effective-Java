@@ -1,6 +1,6 @@
 # Effective-Java
 이펙티브 자바
-- Java9
+- Java9 -> Java11로 사용중
 
 Effective Java 3/E (Book)
 - Java 7,8,9를 다룬다
